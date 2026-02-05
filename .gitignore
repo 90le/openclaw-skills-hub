@@ -1,0 +1,81 @@
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+.pnpm-debug.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+.cache/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Skill specific
+*.log
+skills/*/node_modules/
+skills/*/.venv/
+
+# Build artifacts
+build/
+dist/
+*.tgz
+*.tar.gz
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Misc
+*.pid
+*.seed
+*.pid.lock
